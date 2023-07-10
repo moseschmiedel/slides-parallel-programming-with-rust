@@ -246,6 +246,7 @@ s1 --> tA1
 s1 --> tB1
 tA1 --> s2
 tB1 --> s2
+style s1 fill:#77ff77,stroke:#555
 style tA1 fill:#ffbb88,stroke:#555
 style tB1 fill:#ffbb88,stroke:#555
 ```
@@ -297,6 +298,7 @@ s1 --> tA1
 s1 --> tB1
 tA1 --> s2
 tB1 --> s2
+style s1 fill:#77ff77,stroke:#555
 style tA1 fill:#77ff77,stroke:#555
 style tB1 fill:#ffbb88,stroke:#555
 ```
@@ -310,7 +312,7 @@ style tB1 fill:#ffbb88,stroke:#555
 
 <div class="text-4xl mr-2">
 
-`y = 0`
+`y = 1`
 </div>
 </div>
 
@@ -347,6 +349,7 @@ s1 --> tA1
 s1 --> tB1
 tA1 --> s2
 tB1 --> s2
+style s1 fill:#77ff77,stroke:#555
 style tA1 fill:#77ff77,stroke:#555
 style tB1 fill:#ffbb88,stroke:#555
 ```
@@ -360,7 +363,7 @@ style tB1 fill:#ffbb88,stroke:#555
 
 <div class="text-4xl mr-2">
 
-`y = 0`
+`y = 1`
 </div>
 </div>
 
@@ -397,6 +400,7 @@ s1 --> tA1
 s1 --> tB1
 tA1 --> s2
 tB1 --> s2
+style s1 fill:#77ff77,stroke:#555
 style tA1 fill:#77ff77,stroke:#555
 style tB1 fill:#77ff77,stroke:#555
 style s2 fill:#ffbb88,stroke:#555
@@ -411,7 +415,7 @@ style s2 fill:#ffbb88,stroke:#555
 
 <div class="text-4xl mr-2">
 
-`y = 0`
+`y = 2`
 </div>
 </div>
 
@@ -446,6 +450,7 @@ s1 --> tA1
 s1 --> tB1
 tA1 --> s2
 tB1 --> s2
+style s1 fill:#77ff77,stroke:#555
 style tA1 fill:#77ff77,stroke:#555
 style tB1 fill:#77ff77,stroke:#555
 style s2 fill:#ffbb88,stroke:#555
@@ -460,7 +465,7 @@ style s2 fill:#ffbb88,stroke:#555
 
 <div class="text-4xl mr-2">
 
-`y = 0`
+`y = 2`
 </div>
 </div>
 

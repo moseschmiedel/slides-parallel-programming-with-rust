@@ -71,6 +71,8 @@ B["y *= 42"]
 </figure>
 </div>
 
+<div class="fixed bottom-[185px] right-[360px] italic">thread</div>
+
 <!--
 ### difficulties of parallel execution
 - define **sequential**: executing code in order mostly only on one CPU
