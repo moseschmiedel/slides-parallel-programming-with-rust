@@ -5,6 +5,7 @@
     const props = defineProps<{
         caption?: string
         src: string
+        number: number
     }>()
 
     const figureNumber = useFigureNumber()
@@ -14,6 +15,6 @@
 <template>
     <figure>
         <img :src="src" />
-        <figcaption>Fig.{{ figureNumber }}{{ caption ? ` - ${caption}` : '' }}</figcaption>
+        <figcaption>Fig.{{ number }}{{ caption ? ` - ${caption}` : '' }}</figcaption>
     </figure>
 </template>
