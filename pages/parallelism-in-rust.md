@@ -34,6 +34,15 @@ y = 0
 
 </div>
 
+<!--
+### parallelism in Rust
+- naive approach does not work, because **variable y is copied**
+- try to use a reference-counted pointer (keeps track how many references exist)
+- not **mutable** anymore -> **compiler error**
+- need to use a **Mutex**
+- enables mutability and solves the data race
+-->
+
 ---
 hideInToc: true
 ---
@@ -72,6 +81,15 @@ fn main() {
 </div>
 
 </div>
+
+<!--
+### parallelism in Rust
+- naive approach does not work, because **variable y is copied**
+- try to use a reference-counted pointer (keeps track how many references exist)
+- not **mutable** anymore -> **compiler error**
+- need to use a **Mutex**
+- enables mutability and solves the data race
+-->
 
 ---
 hideInToc: true
@@ -117,6 +135,15 @@ y = 10000
 
 </div>
 
+<!--
+### parallelism in Rust
+- naive approach does not work, because **variable y is copied**
+- try to use a reference-counted pointer (keeps track how many references exist)
+- not **mutable** anymore -> **compiler error**
+- need to use a **Mutex**
+- enables mutability and solves the data race
+-->
+
 ---
 hideInToc: true
 title: graph
@@ -142,6 +169,14 @@ tB1 --> s2
 </div>
 
 </div>
+
+<!--
+- bring execution graph back
+- variable y is guarded by a lock with only one key
+- key to this lock must be acquired before a read or write to variable may occur
+- step through execution
+- bottom path must wait until it can acquire the key to the lock
+-->
 
 ---
 hideInToc: true
@@ -181,6 +216,14 @@ style s1 fill:#ffbb88,stroke:#555
 </div>
 
 </div>
+
+<!--
+- bring execution graph back
+- variable y is guarded by a lock with only one key
+- key to this lock must be acquired before a read or write to variable may occur
+- step through execution
+- bottom path must wait until it can acquire the key to the lock
+-->
 
 ---
 hideInToc: true
@@ -225,6 +268,14 @@ style tB1 fill:#ffbb88,stroke:#555
 <div class="text-3xl i-tabler-circle-key fixed top-[190px] left-[450px]" />
 <div class="text-3xl i-tabler-player-pause-filled fixed top-[330px] left-[450px]" />
 
+<!--
+- bring execution graph back
+- variable y is guarded by a lock with only one key
+- key to this lock must be acquired before a read or write to variable may occur
+- step through execution
+- bottom path must wait until it can acquire the key to the lock
+-->
+
 ---
 hideInToc: true
 title: unlock y
@@ -266,6 +317,14 @@ style tB1 fill:#ffbb88,stroke:#555
 </div>
 
 <div class="text-3xl i-tabler-player-pause-filled fixed top-[330px] left-[450px]" />
+
+<!--
+- bring execution graph back
+- variable y is guarded by a lock with only one key
+- key to this lock must be acquired before a read or write to variable may occur
+- step through execution
+- bottom path must wait until it can acquire the key to the lock
+-->
 
 ---
 hideInToc: true
@@ -309,6 +368,14 @@ style tB1 fill:#ffbb88,stroke:#555
 
 <div class="text-3xl i-tabler-circle-key fixed top-[330px] left-[450px]" />
 
+<!--
+- bring execution graph back
+- variable y is guarded by a lock with only one key
+- key to this lock must be acquired before a read or write to variable may occur
+- step through execution
+- bottom path must wait until it can acquire the key to the lock
+-->
+
 ---
 hideInToc: true
 title: print(y)
@@ -350,6 +417,13 @@ style s2 fill:#ffbb88,stroke:#555
 
 </div>
 
+<!--
+- bring execution graph back
+- variable y is guarded by a lock with only one key
+- key to this lock must be acquired before a read or write to variable may occur
+- step through execution
+- bottom path must wait until it can acquire the key to the lock
+-->
 
 ---
 hideInToc: true
@@ -393,3 +467,11 @@ style s2 fill:#ffbb88,stroke:#555
 </div>
 
 <div class="text-3xl i-tabler-circle-key fixed top-[260px] left-[585px]" />
+
+<!--
+- bring execution graph back
+- variable y is guarded by a lock with only one key
+- key to this lock must be acquired before a read or write to variable may occur
+- step through execution
+- bottom path must wait until it can acquire the key to the lock
+-->

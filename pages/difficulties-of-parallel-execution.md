@@ -31,10 +31,12 @@ B["y *= 42"]
 - define **parallel**: executing code out of order at the same time on multiple
 CPUs
 - **naive approach**: 2 CPUs == doubled computing power/performance
-- **not true** because of **synchronization**
-- every computing task (e.g. calculating a prime number) needs some
+- **not true** because of:
+- **orchestration**: every computing task (e.g. calculating a prime number) needs some
 setup which needs to be executed sequentially (e.g. telling the other CPUs
 what to do)
+- **synchronization**: maybe computing task needs to combine result of multiple
+CPUs
 -->
 
 ---
@@ -167,6 +169,12 @@ style s2 fill:#ff8888,stroke:#555
 
 </div>
 
+<!--
+### difficulties of parallel execution
+- **data race**: maybe overwriting of modified value
+- example in C++: exaggerated to reveal problem
+-->
+
 ---
 hideInToc: true
 ---
@@ -219,3 +227,9 @@ y = 10000
 </div>
 
 </div>
+
+<!--
+### difficulties of parallel execution
+- **data race**: maybe overwriting of modified value
+- example in C++: exaggerated to reveal problem
+-->
