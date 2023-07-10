@@ -185,7 +185,7 @@ hideInToc: true
 
 <div class="flex justify-start">
 
-```cpp {all|8-18,22}
+```cpp {all}
 #include <chrono>
 #include <cstdio>
 #include <thread>

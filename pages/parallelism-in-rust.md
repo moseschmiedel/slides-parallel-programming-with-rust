@@ -99,7 +99,7 @@ hideInToc: true
 
 <div class="flex">
 
-```rust {all|8,14,23}
+```rust {all|8,14-15,23}
 use std::sync::{Arc, Mutex};
 use std::thread::{self, JoinHandle};
 use std::time::Duration;
