@@ -73,6 +73,8 @@ hideInToc: true
 ---
 layout: index
 indexEntries:
+    -   title: Lightning McQueen - Disney
+        uri: https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-17ohmzf_d340a6bd.jpeg?width=1136
     -
         title: Integrated Circuit - Cole L, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons
         uri: https://upload.wikimedia.org/wikipedia/commons/0/07/AME_AS3336G_Precision_Multiple_Analog_Switch_%2849838375532%29.png
