@@ -15,6 +15,7 @@
   "devDependencies": {
     "@iconify-json/tabler": "^1.1.81",
     "@unocss/preset-icons": "^0.53.5",
-    "@vueuse/motion": "^2.0.0"
+    "@vueuse/motion": "^2.0.0",
+    "playwright-chromium": "^1.40.1"
   }
 }
