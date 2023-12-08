@@ -2,7 +2,10 @@
 
 <div class="flex w-full h-full justify-center items-center">
 <div v-click class="flex flex-col w-min h-full justify-around items-center mr-10">
-<Figure number="1" src="/mcqueen.jpg" class="w-180"/>
+<figure class="w-180">
+    <img src="/mcqueen.jpg" />
+    <figcaption>Fig. 1</figcaption>
+</figure>
 </div>
 </div>
 
@@ -24,10 +27,16 @@ hideInToc: true
 
 <div class="flex w-full h-full justify-center items-center">
 <div class="flex flex-col w-min h-full justify-around items-center mr-10">
-<Figure number="2" src="/ic.png" class="w-40"/>
+<figure class="w-40">
+    <img src="/ic.jpg" />
+    <figcaption>Fig. 2</figcaption>
+</figure>
 <Arrow x1="391" y1="301" x2="430" y2="414" />
 <Arrow x1="549" y1="301" x2="510" y2="415" />
-<Figure number="2" src="/ic.png" class="w-20"/>
+<figure class="w-20">
+    <img src="/ic.jpg" />
+    <figcaption>Fig. 2</figcaption>
+</figure>
 </div>
 </div>
 
@@ -49,11 +58,20 @@ hideInToc: true
 
 <div class="flex h-full justify-evenly items-center">
 
-<Figure number="2" src="/ic.png" class="w-40"/>
+<figure class="w-40">
+    <img src="/ic.jpg" />
+    <figcaption>Fig. 2</figcaption>
+</figure>
 <div class="i-tabler-plus text-3xl"/>
-<Figure number="2" src="/ic.png" class="w-40"/>
+<figure class="w-40">
+    <img src="/ic.jpg" />
+    <figcaption>Fig. 2</figcaption>
+</figure>
 <div class="i-tabler-plus text-3xl"/>
-<Figure number="2" src="/ic.png" class="w-40"/>
+<figure class="w-40">
+    <img src="/ic.jpg" />
+    <figcaption>Fig. 2</figcaption>
+</figure>
 </div>
 
 <!--
