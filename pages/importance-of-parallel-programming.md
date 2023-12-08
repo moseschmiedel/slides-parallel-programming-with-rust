@@ -28,13 +28,13 @@ hideInToc: true
 <div class="flex w-full h-full justify-center items-center">
 <div class="flex flex-col w-min h-full justify-around items-center mr-10">
 <figure class="w-40">
-    <img src="/ic.jpg" />
+    <img src="/ic.png" />
     <figcaption>Fig. 2</figcaption>
 </figure>
 <Arrow x1="391" y1="301" x2="430" y2="414" />
 <Arrow x1="549" y1="301" x2="510" y2="415" />
 <figure class="w-20">
-    <img src="/ic.jpg" />
+    <img src="/ic.png" />
     <figcaption>Fig. 2</figcaption>
 </figure>
 </div>
@@ -59,17 +59,17 @@ hideInToc: true
 <div class="flex h-full justify-evenly items-center">
 
 <figure class="w-40">
-    <img src="/ic.jpg" />
+    <img src="/ic.png" />
     <figcaption>Fig. 2</figcaption>
 </figure>
 <div class="i-tabler-plus text-3xl"/>
 <figure class="w-40">
-    <img src="/ic.jpg" />
+    <img src="/ic.png" />
     <figcaption>Fig. 2</figcaption>
 </figure>
 <div class="i-tabler-plus text-3xl"/>
 <figure class="w-40">
-    <img src="/ic.jpg" />
+    <img src="/ic.png" />
     <figcaption>Fig. 2</figcaption>
 </figure>
 </div>
