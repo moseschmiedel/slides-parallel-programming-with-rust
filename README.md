@@ -1,6 +1,6 @@
 # Slides on 'Parallel programming with Rust'
 This repository contains the slides for my presentation about
-parallel programmin with Rust. I held this presentation as part
+parallel programming with Rust. I held this presentation as part
 of an assignment in the 'Technical English' course at HTWK Leipzig.
 
 ## Usage
